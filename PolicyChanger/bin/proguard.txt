@@ -1,0 +1,63 @@
+# view AndroidManifest.xml #generated:56
+-keep class com.edragone.policychanger.CheckDriveEventSerivce { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.edragone.policychanger.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.edragone.policychanger.OnBootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.edragone.policychanger.ScreenshotService { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.edragone.policychanger.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.edragone.policychanger.TimedBackupService { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:37
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_main.xml #generated:48
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_main.xml #generated:48
+-keepclassmembers class * { *** backup(...); }
+
+# onClick res/layout/activity_settings.xml #generated:91
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_settings.xml #generated:13
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_settings.xml #generated:13
+-keepclassmembers class * { *** changePermission(...); }
+
+# onClick res/layout/activity_main.xml #generated:27
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_main.xml #generated:38
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_main.xml #generated:38
+-keepclassmembers class * { *** clearLog(...); }
+
+# onClick res/layout/activity_settings.xml #generated:116
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_settings.xml #generated:121
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_settings.xml #generated:111
+-keepclassmembers class * { *** cpuCores(...); }
+
+# onClick res/layout/activity_main.xml #generated:94
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_main.xml #generated:105
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_main.xml #generated:105
+-keepclassmembers class * { *** dumpLogs(...); }
+
+# onClick res/layout/activity_main.xml #generated:135
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_main.xml #generated:146
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_main.xml #generated:146
+-keepclassmembers class * { *** loggingChanged(...); }
+
+# onClick res/layout/activity_main.xml #generated:151
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_main.xml #generated:18
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_main.xml #generated:18
+-keepclassmembers class * { *** save(...); }
+
+# onClick res/layout/activity_settings.xml #generated:82
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_settings.xml #generated:61
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_settings.xml #generated:61
+-keepclassmembers class * { *** saveSettings(...); }
+
+# onClick res/layout/activity_main.xml #generated:126
+# onClick sw600dp-v13/res/layout-sw600dp-v13/activity_main.xml #generated:137
+# onClick sw720dp-v13/res/layout-sw720dp-v13/activity_main.xml #generated:137
+-keepclassmembers class * { *** screenshotChanged(...); }
+
